@@ -21,5 +21,13 @@
 
 (length2 one-through-four)
 
+; count leaves
+(define x (cons (list 1 2) (list 3 4)))
+(length x) '3
+(count-leaves x) '4
+(length (list x x)) '2
+(count-leaves (list x x)) '8
+              
+
 
     
